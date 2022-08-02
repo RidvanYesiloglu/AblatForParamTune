@@ -6,6 +6,9 @@ To use it, you need to modify according to your project some lines on<br />
 •	job script creator python file (runset_train/submit_job_files_given_opts.py)  (this contains job script creation. you may want to request certain amount of resources, load some more modules, change job time, type your email address etc.)<br />
 •	of course the models folder (model_xxx.py specifies the model arch., write_actions_xxx.py specifies what to write to logs or what to save in detailed results, plot_xxx.py file is optional and specifies what to plot)<br />
 ![Image 1: The input taking screen](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_inp_take_screen.png?raw=true)
+Image 1: The input taking screen
 ![Image 2: An example live summary of results of a set of trainings (16 trainings)](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_live_summary.png?raw=true)
+Image 2: An example live summary of results of a set of trainings (16 trainings)
 ![Image 3: An example of the parameters dictionary](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_param_dict.png?raw=true)
+Image 3: An example of the parameters dictionary
 
