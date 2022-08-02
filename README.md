@@ -5,10 +5,19 @@ To use it, you need to modify according to your project some lines on<br />
 •	the parameters dictionary (params_dictionary) (see image 3. it has kind of a syntax and allows you to specify the sets of parameters. it has a bunch of features (which i do want to bother you with telling) for input validating, specifiying parameter's default, conditionally requiring some of parameters, putting conditions etc.)<br />
 •	job script creator python file (runset_train/submit_job_files_given_opts.py)  (this contains job script creation. you may want to request certain amount of resources, load some more modules, change job time, type your email address etc.)<br />
 •	of course the models folder (model_xxx.py specifies the model arch., write_actions_xxx.py specifies what to write to logs or what to save in detailed results, plot_xxx.py file is optional and specifies what to plot)<br />
-![Image 1: The input taking screen](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_inp_take_screen.png?raw=true)
-Image 1: The input taking screen
-![Image 2: An example live summary of results of a set of trainings (16 trainings)](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_live_summary.png?raw=true)
-Image 2: An example live summary of results of a set of trainings (16 trainings)
-![Image 3: An example of the parameters dictionary](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_param_dict.png?raw=true)
-Image 3: An example of the parameters dictionary
 
+![Image 1: The input taking screen](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_inp_take_screen.png?raw=true)
+<p align="center">
+    Image 1: The input taking screen
+</p>
+
+![Image 2: An example live summary of results of a set of trainings (16 trainings)](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_live_summary.png?raw=true)
+<p align="center">
+    Image 2: An example live summary of results of a set of trainings (16 trainings)
+</p>
+
+![Image 3: An example of the parameters dictionary](https://github.com/RidvanYesiloglu/AblationTrainer/blob/main/example_param_dict.png?raw=true)
+
+<p align="center">
+    Image 3: An example of the parameters dictionary
+</p>
